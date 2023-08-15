@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/reboot_test.dir/current/samples/reboot_test.c.o  -o /home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/urg_c/reboot_test -Wl,-rpath,/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib: /home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/libopen_urg_sensor.so /home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/libliburg_c.so -lrt -lm 

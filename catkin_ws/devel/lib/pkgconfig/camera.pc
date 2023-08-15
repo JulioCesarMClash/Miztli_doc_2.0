@@ -1,0 +1,8 @@
+prefix=/home/festino/Miztli_doc_2.0/catkin_ws/devel
+
+Name: camera
+Description: Description of camera
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp roslib rospy sensor_msgs std_msgs

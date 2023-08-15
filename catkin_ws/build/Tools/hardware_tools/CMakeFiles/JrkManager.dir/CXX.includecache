@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/festino/Miztli_doc_2.0/catkin_ws/src/Tools/hardware_tools/src/JrkManager.cpp
+hardware_tools/JrkManager.hpp
+-
+cstdio
+-
+
