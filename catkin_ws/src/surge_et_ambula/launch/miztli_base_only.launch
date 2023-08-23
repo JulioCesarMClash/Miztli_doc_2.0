@@ -2,8 +2,8 @@
     <group ns="hardware">
 	<node name="mobile_base" pkg="mobile_base" type="hexa_base_node" output="screen">
 	  <!--param name="simul" value="$(arg simul)"/-->
-	  <param name="port1" value="/dev/justinaRC30"/>
-	  <param name="port2" value="/dev/justinaRC15"/>
+	  <param name="port1" value="/dev/miztliRC15"/>
+	  <param name="port2" value="/dev/miztliRC30"/>
 	</node>
 	<node name="joy" pkg="joy" type="joy_node" output="screen"/>
     </group>
