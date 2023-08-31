@@ -541,6 +541,9 @@ hardware_tools_DIR:PATH=/home/festino/Miztli_doc_2.0/catkin_ws/devel/share/hardw
 //Value Computed by CMake
 hardware_tools_SOURCE_DIR:STATIC=/home/festino/Miztli_doc_2.0/catkin_ws/src/Tools/hardware_tools
 
+//The directory containing a CMake configuration file for interactive_markers.
+interactive_markers_DIR:PATH=/opt/ros/melodic/share/interactive_markers/cmake
+
 //Dependencies for the target
 joint_state_listener_LIB_DEPENDS:STATIC=general;robot_state_publisher_solver;general;orocos-kdl;
 
@@ -579,6 +582,12 @@ kdl_parser_py_BINARY_DIR:STATIC=/home/festino/Miztli_doc_2.0/catkin_ws/build/Pla
 
 //Value Computed by CMake
 kdl_parser_py_SOURCE_DIR:STATIC=/home/festino/Miztli_doc_2.0/catkin_ws/src/Planning/kdl_parser/kdl_parser_py
+
+//Value Computed by CMake
+knowledge_BINARY_DIR:STATIC=/home/festino/Miztli_doc_2.0/catkin_ws/build/Planning/knowledge
+
+//Value Computed by CMake
+knowledge_SOURCE_DIR:STATIC=/home/festino/Miztli_doc_2.0/catkin_ws/src/Planning/knowledge
 
 //Value Computed by CMake
 knownledge_BINARY_DIR:STATIC=/home/festino/Miztli_doc_2.0/catkin_ws/build/Planning/knownledge
@@ -789,6 +798,9 @@ urg_node_SOURCE_DIR:STATIC=/home/festino/Miztli_doc_2.0/catkin_ws/src/Hardware/u
 
 //Dependencies for the target
 urg_node_driver_LIB_DEPENDS:STATIC=general;urg_c_wrapper;general;/opt/ros/melodic/lib/libdiagnostic_updater.so;general;/opt/ros/melodic/lib/libdynamic_reconfigure_config_init_mutex.so;general;laser_proc_library;general;laser_publisher;general;laser_transport;general;laser_proc_ROS;general;LaserProcNodelet;general;/opt/ros/melodic/lib/libnodeletlib.so;general;/opt/ros/melodic/lib/libbondcpp.so;general;/usr/lib/x86_64-linux-gnu/libuuid.so;general;/opt/ros/melodic/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/melodic/lib/libroslib.so;general;/opt/ros/melodic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/melodic/lib/libtf.so;general;/opt/ros/melodic/lib/libtf2_ros.so;general;/opt/ros/melodic/lib/libactionlib.so;general;/opt/ros/melodic/lib/libmessage_filters.so;general;/opt/ros/melodic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/melodic/lib/libxmlrpcpp.so;general;/opt/ros/melodic/lib/libtf2.so;general;/opt/ros/melodic/lib/libroscpp_serialization.so;general;/opt/ros/melodic/lib/librosconsole.so;general;/opt/ros/melodic/lib/librosconsole_log4cxx.so;general;/opt/ros/melodic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/melodic/lib/librostime.so;general;/opt/ros/melodic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;general;liburg_c;
+
+//The directory containing a CMake configuration file for visualization_msgs.
+visualization_msgs_DIR:PATH=/opt/ros/melodic/share/visualization_msgs/cmake
 
 //Value Computed by CMake
 xacro_BINARY_DIR:STATIC=/home/festino/Miztli_doc_2.0/catkin_ws/build/Planning/xacro
