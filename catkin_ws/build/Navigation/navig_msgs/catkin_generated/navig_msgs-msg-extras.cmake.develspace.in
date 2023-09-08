@@ -1,0 +1,2 @@
+set(navig_msgs_MESSAGE_FILES "/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/msg/Edges.msg;/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/msg/GeometryGraph.msg")
+set(navig_msgs_SERVICE_FILES "/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/srv/GetInflatedMap.srv;/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/srv/GetBoundaryPoints.srv;/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/srv/GetGoalPoint.srv")

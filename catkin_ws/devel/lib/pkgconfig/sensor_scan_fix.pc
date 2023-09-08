@@ -1,0 +1,8 @@
+prefix=/home/festino/Miztli_doc_2.0/catkin_ws/devel
+
+Name: sensor_scan_fix
+Description: Description of sensor_scan_fix
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
