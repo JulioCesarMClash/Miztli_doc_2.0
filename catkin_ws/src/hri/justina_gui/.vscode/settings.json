@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/joel/Repositories/Juskeshino/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/joel/Repositories/Juskeshino/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

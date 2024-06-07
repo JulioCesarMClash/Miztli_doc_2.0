@@ -2,11 +2,19 @@
     <group ns="hardware">
 	<node name="mobile_base" pkg="mobile_base" type="hexa_base_node" output="screen">
 	  <!--param name="simul" value="$(arg simul)"/-->
-	  <param name="port1" value="/dev/miztliRC30"/>
-	  <param name="port2" value="/dev/miztliRC15"/>
+	  <!--param name="port1" value="/dev/justinaRC30"/-->
+	  <!--param name="port2" value="/dev/justinaRC15"/-->
+	  <param name="port2" value="/dev/ttyACM0"/>
+	  <param name="port1" value="/dev/ttyACM1"/>
 	</node>
 	<node name="joy" pkg="joy" type="joy_node" output="screen"/>
     </group>
+<node name="justina_gui" pkg="justina_gui" type="justina_gui_node" output="screen">
+    <param name="la_predefined" value="$(find config_files)/justina/manipulation/la_predefined.yaml"/>
+    <param name="ra_predefined" value="$(find config_files)/justina/manipulation/ra_predefined.yaml"/>
+    <param name="hd_predefined" value="$(find config_files)/justina/manipulation/hd_predefined.yaml"/>
+    <remap from="/vision/obj_reco/recognize_object" to="/vision/obj_segmentation/get_obj_pose"/>
+  </node>
 
     <group ns="interoperation">
 	<node name="joystick_teleop" pkg="joystick_teleop" type="joystick_logitech.py" output="screen"/>
