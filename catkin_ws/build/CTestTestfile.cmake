@@ -1,12 +1,10 @@
 # CMake generated Testfile for 
-# Source directory: /home/festino/Miztli_doc_2.0/catkin_ws/src
-# Build directory: /home/festino/Miztli_doc_2.0/catkin_ws/build
+# Source directory: /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src
+# Build directory: /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("Planning/urdf/urdf_parser_plugin")
-subdirs("Hardware/urg_c")
 subdirs("Interoperation/bbros_bridge")
 subdirs("Navigation/config_files")
 subdirs("Navigation/exploration")
@@ -15,25 +13,17 @@ subdirs("Interoperation/joy_control")
 subdirs("Navigation/navig_msgs")
 subdirs("Navigation/map_sparser")
 subdirs("Navigation/Pos_control/pos_config_files")
-subdirs("Planning/kdl_parser/kdl_parser_py")
 subdirs("surge_et_ambula")
 subdirs("Hardware/camera")
-subdirs("Interoperation/joystick_drivers/joy")
 subdirs("Interoperation/joystick_teleop")
-subdirs("Hardware/laser_proc")
-subdirs("Interoperation/joystick_drivers/ps3joy")
 subdirs("Navigation/sensor_scan_fix")
 subdirs("Navigation/Pos_control/movement_functions")
-subdirs("Planning/knowledge")
 subdirs("Hardware/mobile_base")
 subdirs("Navigation/mvn_pln")
 subdirs("Navigation/path_planner")
 subdirs("Navigation/simple_move")
+subdirs("Planning/knowledge")
 subdirs("Navigation/map_augmenter")
 subdirs("Navigation/obstacle_detector")
 subdirs("Navigation/Pos_control/pos_definition")
-subdirs("Planning/urdf/urdf")
-subdirs("Planning/kdl_parser/kdl_parser")
-subdirs("Planning/robot_state_publisher")
-subdirs("Hardware/urg_node")
-subdirs("Planning/xacro")
+subdirs("hri/justina_gui")

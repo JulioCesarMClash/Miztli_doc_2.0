@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/map_augmenter/map_augmenter_node"
+  "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/map_augmenter/map_augmenter_node.pdb"
   "CMakeFiles/map_augmenter_node.dir/src/map_augmenter_node.cpp.o"
-  "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/map_augmenter/map_augmenter_node.pdb"
-  "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/map_augmenter/map_augmenter_node"
 )
 
 # Per-language clean rules from dependency scanning.

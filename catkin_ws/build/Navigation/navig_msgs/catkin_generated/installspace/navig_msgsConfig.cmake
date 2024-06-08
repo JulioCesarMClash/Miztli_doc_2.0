@@ -67,14 +67,14 @@ set(navig_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(navig_msgs_SOURCE_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs)
-  set(navig_msgs_DEVEL_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/devel)
+  set(navig_msgs_SOURCE_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs)
+  set(navig_msgs_DEVEL_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel)
   set(navig_msgs_INSTALL_PREFIX "")
   set(navig_msgs_PREFIX ${navig_msgs_DEVEL_PREFIX})
 else()
   set(navig_msgs_SOURCE_PREFIX "")
   set(navig_msgs_DEVEL_PREFIX "")
-  set(navig_msgs_INSTALL_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/install)
+  set(navig_msgs_INSTALL_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install)
   set(navig_msgs_PREFIX ${navig_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/festino/Miztli_doc_2.0/catkin_ws/install/lib;/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/lib;/home/joel/Repositories/Juskeshino/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(navig_msgs_LIBRARIES ${navig_msgs_LIBRARIES})
 
   _list_append_unique(navig_msgs_LIBRARY_DIRS ${${navig_msgs_dep}_LIBRARY_DIRS})
-  list(APPEND navig_msgs_EXPORTED_TARGETS ${${navig_msgs_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(navig_msgs_EXPORTED_TARGETS ${${navig_msgs_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "navig_msgs-msg-extras.cmake")

@@ -1,8 +1,8 @@
-# Install script for directory: /home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs
+# Install script for directory: /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/festino/Miztli_doc_2.0/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,63 +39,63 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navig_msgs/msg" TYPE FILE FILES
-    "/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/msg/Edges.msg"
-    "/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/msg/GeometryGraph.msg"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/msg/Edges.msg"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/msg/GeometryGraph.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navig_msgs/srv" TYPE FILE FILES
-    "/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/srv/GetInflatedMap.srv"
-    "/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/srv/GetBoundaryPoints.srv"
-    "/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/srv/GetGoalPoint.srv"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/srv/GetInflatedMap.srv"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/srv/GetBoundaryPoints.srv"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/srv/GetGoalPoint.srv"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navig_msgs/cmake" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/navig_msgs/catkin_generated/installspace/navig_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navig_msgs/cmake" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/navig_msgs/catkin_generated/installspace/navig_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/festino/Miztli_doc_2.0/catkin_ws/devel/include/navig_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/include/navig_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/festino/Miztli_doc_2.0/catkin_ws/devel/share/roseus/ros/navig_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/share/roseus/ros/navig_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/festino/Miztli_doc_2.0/catkin_ws/devel/share/common-lisp/ros/navig_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/share/common-lisp/ros/navig_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/festino/Miztli_doc_2.0/catkin_ws/devel/share/gennodejs/ros/navig_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/share/gennodejs/ros/navig_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/python2.7/dist-packages/navig_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/python3/dist-packages/navig_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/python2.7/dist-packages/navig_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/python3/dist-packages/navig_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/navig_msgs/catkin_generated/installspace/navig_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/navig_msgs/catkin_generated/installspace/navig_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navig_msgs/cmake" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/navig_msgs/catkin_generated/installspace/navig_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navig_msgs/cmake" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/navig_msgs/catkin_generated/installspace/navig_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navig_msgs/cmake" TYPE FILE FILES
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/navig_msgs/catkin_generated/installspace/navig_msgsConfig.cmake"
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/navig_msgs/catkin_generated/installspace/navig_msgsConfig-version.cmake"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/navig_msgs/catkin_generated/installspace/navig_msgsConfig.cmake"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/navig_msgs/catkin_generated/installspace/navig_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navig_msgs" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navig_msgs" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/navig_msgs/package.xml")
 endif()
 

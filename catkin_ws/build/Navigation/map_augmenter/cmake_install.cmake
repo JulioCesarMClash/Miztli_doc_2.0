@@ -1,8 +1,8 @@
-# Install script for directory: /home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/map_augmenter
+# Install script for directory: /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/map_augmenter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/festino/Miztli_doc_2.0/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/map_augmenter/catkin_generated/installspace/map_augmenter.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/map_augmenter/catkin_generated/installspace/map_augmenter.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_augmenter/cmake" TYPE FILE FILES
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/map_augmenter/catkin_generated/installspace/map_augmenterConfig.cmake"
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/map_augmenter/catkin_generated/installspace/map_augmenterConfig-version.cmake"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/map_augmenter/catkin_generated/installspace/map_augmenterConfig.cmake"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/map_augmenter/catkin_generated/installspace/map_augmenterConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_augmenter" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/map_augmenter/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/map_augmenter" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/map_augmenter/package.xml")
 endif()
 

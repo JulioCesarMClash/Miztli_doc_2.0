@@ -1,8 +1,8 @@
-# Install script for directory: /home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/simple_move
+# Install script for directory: /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/simple_move
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/festino/Miztli_doc_2.0/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/simple_move/catkin_generated/installspace/simple_move.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/simple_move/catkin_generated/installspace/simple_move.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simple_move/cmake" TYPE FILE FILES
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/simple_move/catkin_generated/installspace/simple_moveConfig.cmake"
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/simple_move/catkin_generated/installspace/simple_moveConfig-version.cmake"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/simple_move/catkin_generated/installspace/simple_moveConfig.cmake"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/simple_move/catkin_generated/installspace/simple_moveConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simple_move" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/simple_move/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/simple_move" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/simple_move/package.xml")
 endif()
 

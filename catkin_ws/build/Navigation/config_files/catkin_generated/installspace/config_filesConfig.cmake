@@ -67,14 +67,14 @@ set(config_files_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(config_files_SOURCE_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/config_files)
-  set(config_files_DEVEL_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/devel)
+  set(config_files_SOURCE_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/config_files)
+  set(config_files_DEVEL_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel)
   set(config_files_INSTALL_PREFIX "")
   set(config_files_PREFIX ${config_files_DEVEL_PREFIX})
 else()
   set(config_files_SOURCE_PREFIX "")
   set(config_files_DEVEL_PREFIX "")
-  set(config_files_INSTALL_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/install)
+  set(config_files_INSTALL_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install)
   set(config_files_PREFIX ${config_files_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/festino/Miztli_doc_2.0/catkin_ws/install/lib;/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/lib;/home/joel/Repositories/Juskeshino/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(config_files_LIBRARIES ${config_files_LIBRARIES})
 
   _list_append_unique(config_files_LIBRARY_DIRS ${${config_files_dep}_LIBRARY_DIRS})
-  list(APPEND config_files_EXPORTED_TARGETS ${${config_files_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(config_files_EXPORTED_TARGETS ${${config_files_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

@@ -51,7 +51,7 @@ class Default_BB_ROS_BridgeRequest {
 
   static getMessageSize(object) {
     let length = 0;
-    length += object.params.length;
+    length += _getByteLength(object.params);
     return length + 4;
   }
 
@@ -124,7 +124,7 @@ class Default_BB_ROS_BridgeResponse {
 
   static getMessageSize(object) {
     let length = 0;
-    length += object.response.length;
+    length += _getByteLength(object.response);
     return length + 4;
   }
 

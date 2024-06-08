@@ -32,7 +32,7 @@
     ((:pos_x_robot __pos_x_robot) 0.0)
     ((:pos_y_robot __pos_y_robot) 0.0)
     ((:pos_a_robot __pos_a_robot) 0.0)
-    ((:points __points) (let (r) (dotimes (i 0) (push (instance geometry_msgs::Point :init) r)) r))
+    ((:points __points) ())
     ((:last_objective __last_objective) (instance geometry_msgs::Point :init))
     ((:method __method) "")
     )

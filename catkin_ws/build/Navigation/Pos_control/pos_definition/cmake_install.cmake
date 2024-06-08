@@ -1,8 +1,8 @@
-# Install script for directory: /home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/Pos_control/pos_definition
+# Install script for directory: /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/Pos_control/pos_definition
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/festino/Miztli_doc_2.0/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/Pos_control/pos_definition/catkin_generated/installspace/pos_definition.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/Pos_control/pos_definition/catkin_generated/installspace/pos_definition.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pos_definition/cmake" TYPE FILE FILES
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/Pos_control/pos_definition/catkin_generated/installspace/pos_definitionConfig.cmake"
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/Pos_control/pos_definition/catkin_generated/installspace/pos_definitionConfig-version.cmake"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/Pos_control/pos_definition/catkin_generated/installspace/pos_definitionConfig.cmake"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/Pos_control/pos_definition/catkin_generated/installspace/pos_definitionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pos_definition" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/src/Navigation/Pos_control/pos_definition/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pos_definition" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Navigation/Pos_control/pos_definition/package.xml")
 endif()
 

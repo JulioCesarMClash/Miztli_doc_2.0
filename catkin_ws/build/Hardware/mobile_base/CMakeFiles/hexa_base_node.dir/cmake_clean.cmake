@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/mobile_base/hexa_base_node"
+  "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/mobile_base/hexa_base_node.pdb"
   "CMakeFiles/hexa_base_node.dir/src/hexa_base_node.cpp.o"
-  "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/mobile_base/hexa_base_node.pdb"
-  "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/mobile_base/hexa_base_node"
 )
 
 # Per-language clean rules from dependency scanning.

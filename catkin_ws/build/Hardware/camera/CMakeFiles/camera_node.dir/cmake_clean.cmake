@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/camera/camera_node"
+  "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/camera/camera_node.pdb"
   "CMakeFiles/camera_node.dir/src/camera_node.cpp.o"
-  "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/camera/camera_node.pdb"
-  "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/camera/camera_node"
 )
 
 # Per-language clean rules from dependency scanning.

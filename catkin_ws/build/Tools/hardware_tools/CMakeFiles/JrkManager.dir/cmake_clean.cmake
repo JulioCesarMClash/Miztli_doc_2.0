@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/libJrkManager.pdb"
+  "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/libJrkManager.so"
   "CMakeFiles/JrkManager.dir/src/JrkManager.cpp.o"
-  "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/libJrkManager.pdb"
-  "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/libJrkManager.so"
 )
 
 # Per-language clean rules from dependency scanning.

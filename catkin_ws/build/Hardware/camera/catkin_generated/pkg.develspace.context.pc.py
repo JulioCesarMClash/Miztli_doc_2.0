@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;roslib;rospy;sensor_msgs;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "camera"
-PROJECT_SPACE_DIR = "/home/festino/Miztli_doc_2.0/catkin_ws/devel"
+PROJECT_SPACE_DIR = "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel"
 PROJECT_VERSION = "0.0.0"

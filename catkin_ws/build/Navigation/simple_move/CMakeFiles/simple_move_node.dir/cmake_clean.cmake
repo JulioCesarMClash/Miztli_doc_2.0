@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/simple_move/simple_move_node"
+  "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/simple_move/simple_move_node.pdb"
   "CMakeFiles/simple_move_node.dir/src/simple_move_node.cpp.o"
-  "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/simple_move/simple_move_node.pdb"
-  "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/simple_move/simple_move_node"
 )
 
 # Per-language clean rules from dependency scanning.

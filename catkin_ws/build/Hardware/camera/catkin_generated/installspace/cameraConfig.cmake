@@ -67,14 +67,14 @@ set(camera_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(camera_SOURCE_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/src/Hardware/camera)
-  set(camera_DEVEL_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/devel)
+  set(camera_SOURCE_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Hardware/camera)
+  set(camera_DEVEL_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel)
   set(camera_INSTALL_PREFIX "")
   set(camera_PREFIX ${camera_DEVEL_PREFIX})
 else()
   set(camera_SOURCE_PREFIX "")
   set(camera_DEVEL_PREFIX "")
-  set(camera_INSTALL_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/install)
+  set(camera_INSTALL_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install)
   set(camera_PREFIX ${camera_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/festino/Miztli_doc_2.0/catkin_ws/install/lib;/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/lib;/home/joel/Repositories/Juskeshino/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(camera_LIBRARIES ${camera_LIBRARIES})
 
   _list_append_unique(camera_LIBRARY_DIRS ${${camera_dep}_LIBRARY_DIRS})
-  list(APPEND camera_EXPORTED_TARGETS ${${camera_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(camera_EXPORTED_TARGETS ${${camera_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

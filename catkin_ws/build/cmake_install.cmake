@@ -1,8 +1,8 @@
-# Install script for directory: /home/festino/Miztli_doc_2.0/catkin_ws/src
+# Install script for directory: /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/festino/Miztli_doc_2.0/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,120 +49,110 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/festino/Miztli_doc_2.0/catkin_ws/install/_setup_util.py")
+   "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/festino/Miztli_doc_2.0/catkin_ws/install" TYPE PROGRAM FILES "/home/festino/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install" TYPE PROGRAM FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/festino/Miztli_doc_2.0/catkin_ws/install/env.sh")
+   "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/festino/Miztli_doc_2.0/catkin_ws/install" TYPE PROGRAM FILES "/home/festino/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install" TYPE PROGRAM FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/festino/Miztli_doc_2.0/catkin_ws/install/setup.bash;/home/festino/Miztli_doc_2.0/catkin_ws/install/local_setup.bash")
+   "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/setup.bash;/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/festino/Miztli_doc_2.0/catkin_ws/install" TYPE FILE FILES
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install" TYPE FILE FILES
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/setup.bash"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/festino/Miztli_doc_2.0/catkin_ws/install/setup.sh;/home/festino/Miztli_doc_2.0/catkin_ws/install/local_setup.sh")
+   "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/setup.sh;/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/festino/Miztli_doc_2.0/catkin_ws/install" TYPE FILE FILES
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install" TYPE FILE FILES
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/setup.sh"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/festino/Miztli_doc_2.0/catkin_ws/install/setup.zsh;/home/festino/Miztli_doc_2.0/catkin_ws/install/local_setup.zsh")
+   "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/setup.zsh;/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/festino/Miztli_doc_2.0/catkin_ws/install" TYPE FILE FILES
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install" TYPE FILE FILES
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/setup.zsh"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/festino/Miztli_doc_2.0/catkin_ws/install/.rosinstall")
+   "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/festino/Miztli_doc_2.0/catkin_ws/install" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Planning/urdf/urdf_parser_plugin/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Hardware/urg_c/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Interoperation/bbros_bridge/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/config_files/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/exploration/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Tools/hardware_tools/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Interoperation/joy_control/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/navig_msgs/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/map_sparser/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/Pos_control/pos_config_files/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Planning/kdl_parser/kdl_parser_py/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/surge_et_ambula/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Hardware/camera/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Interoperation/joystick_drivers/joy/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Interoperation/joystick_teleop/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Hardware/laser_proc/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Interoperation/joystick_drivers/ps3joy/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/sensor_scan_fix/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/Pos_control/movement_functions/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Planning/knowledge/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Hardware/mobile_base/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/mvn_pln/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/path_planner/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/simple_move/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/map_augmenter/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/obstacle_detector/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Navigation/Pos_control/pos_definition/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Planning/urdf/urdf/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Planning/kdl_parser/kdl_parser/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Planning/robot_state_publisher/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Hardware/urg_node/cmake_install.cmake")
-  include("/home/festino/Miztli_doc_2.0/catkin_ws/build/Planning/xacro/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Interoperation/bbros_bridge/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/config_files/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/exploration/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Tools/hardware_tools/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Interoperation/joy_control/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/navig_msgs/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/map_sparser/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/Pos_control/pos_config_files/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/surge_et_ambula/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Hardware/camera/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Interoperation/joystick_teleop/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/sensor_scan_fix/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/Pos_control/movement_functions/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Hardware/mobile_base/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/mvn_pln/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/path_planner/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/simple_move/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Planning/knowledge/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/map_augmenter/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/obstacle_detector/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/Navigation/Pos_control/pos_definition/cmake_install.cmake")
+  include("/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/hri/justina_gui/cmake_install.cmake")
 
 endif()
 
@@ -174,5 +164,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/festino/Miztli_doc_2.0/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

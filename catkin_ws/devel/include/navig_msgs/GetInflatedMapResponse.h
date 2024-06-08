@@ -88,16 +88,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::navig_msgs::GetInflatedMapResponse_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::navig_msgs::GetInflatedMapResponse_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::navig_msgs::GetInflatedMapResponse_<ContainerAllocator> >
   : TrueType
   { };
@@ -105,6 +95,16 @@ struct IsMessage< ::navig_msgs::GetInflatedMapResponse_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::navig_msgs::GetInflatedMapResponse_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::navig_msgs::GetInflatedMapResponse_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::navig_msgs::GetInflatedMapResponse_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

@@ -1,8 +1,8 @@
-# Install script for directory: /home/festino/Miztli_doc_2.0/catkin_ws/src/surge_et_ambula
+# Install script for directory: /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/surge_et_ambula
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/festino/Miztli_doc_2.0/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/build/surge_et_ambula/catkin_generated/installspace/surge_et_ambula.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/surge_et_ambula/catkin_generated/installspace/surge_et_ambula.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/surge_et_ambula/cmake" TYPE FILE FILES
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/surge_et_ambula/catkin_generated/installspace/surge_et_ambulaConfig.cmake"
-    "/home/festino/Miztli_doc_2.0/catkin_ws/build/surge_et_ambula/catkin_generated/installspace/surge_et_ambulaConfig-version.cmake"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/surge_et_ambula/catkin_generated/installspace/surge_et_ambulaConfig.cmake"
+    "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/build/surge_et_ambula/catkin_generated/installspace/surge_et_ambulaConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/surge_et_ambula" TYPE FILE FILES "/home/festino/Miztli_doc_2.0/catkin_ws/src/surge_et_ambula/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/surge_et_ambula" TYPE FILE FILES "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/surge_et_ambula/package.xml")
 endif()
 

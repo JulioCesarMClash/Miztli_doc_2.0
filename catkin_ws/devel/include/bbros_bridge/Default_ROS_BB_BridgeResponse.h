@@ -93,16 +93,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::bbros_bridge::Default_ROS_BB_BridgeResponse_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::bbros_bridge::Default_ROS_BB_BridgeResponse_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::bbros_bridge::Default_ROS_BB_BridgeResponse_<ContainerAllocator> >
   : TrueType
   { };
@@ -110,6 +100,16 @@ struct IsMessage< ::bbros_bridge::Default_ROS_BB_BridgeResponse_<ContainerAlloca
 template <class ContainerAllocator>
 struct IsMessage< ::bbros_bridge::Default_ROS_BB_BridgeResponse_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::bbros_bridge::Default_ROS_BB_BridgeResponse_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::bbros_bridge::Default_ROS_BB_BridgeResponse_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

@@ -95,22 +95,22 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::bbros_bridge::mp_move_dist_angleRequest_<ContainerAllocator> >
-  : TrueType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::bbros_bridge::mp_move_dist_angleRequest_<ContainerAllocator> const>
-  : TrueType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::bbros_bridge::mp_move_dist_angleRequest_<ContainerAllocator> >
   : TrueType
   { };
 
 template <class ContainerAllocator>
 struct IsMessage< ::bbros_bridge::mp_move_dist_angleRequest_<ContainerAllocator> const>
+  : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::bbros_bridge::mp_move_dist_angleRequest_<ContainerAllocator> >
+  : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::bbros_bridge::mp_move_dist_angleRequest_<ContainerAllocator> const>
   : TrueType
   { };
 

@@ -93,16 +93,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::navig_msgs::Edges_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::navig_msgs::Edges_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::navig_msgs::Edges_<ContainerAllocator> >
   : TrueType
   { };
@@ -110,6 +100,16 @@ struct IsMessage< ::navig_msgs::Edges_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::navig_msgs::Edges_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::navig_msgs::Edges_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::navig_msgs::Edges_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

@@ -102,22 +102,22 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::bbros_bridge::mp_getclose_xyaRequest_<ContainerAllocator> >
-  : TrueType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::bbros_bridge::mp_getclose_xyaRequest_<ContainerAllocator> const>
-  : TrueType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::bbros_bridge::mp_getclose_xyaRequest_<ContainerAllocator> >
   : TrueType
   { };
 
 template <class ContainerAllocator>
 struct IsMessage< ::bbros_bridge::mp_getclose_xyaRequest_<ContainerAllocator> const>
+  : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::bbros_bridge::mp_getclose_xyaRequest_<ContainerAllocator> >
+  : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::bbros_bridge::mp_getclose_xyaRequest_<ContainerAllocator> const>
   : TrueType
   { };
 

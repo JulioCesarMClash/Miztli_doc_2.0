@@ -117,7 +117,7 @@ class GetGoalPointRequest {
   static getMessageSize(object) {
     let length = 0;
     length += 24 * object.points.length;
-    length += object.method.length;
+    length += _getByteLength(object.method);
     return length + 44;
   }
 

@@ -6,13 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/festino/Miztli_doc_2.0/catkin_ws/src/Tools/hardware_tools/src/roboclaw.cpp
+/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Tools/hardware_tools/include/hardware_tools/roboclaw.hpp
+stdint.h
+-
+stdarg.h
+-
+string
+-
+serial/serial.h
+-
+
+/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Tools/hardware_tools/src/roboclaw.cpp
 hardware_tools/roboclaw.hpp
 -
 serial/serial.h
 -
 
-/opt/ros/melodic/include/serial/serial.h
+/opt/ros/noetic/include/serial/serial.h
 limits
 -
 vector
@@ -30,7 +40,7 @@ stdexcept
 serial/v8stdint.h
 -
 
-/opt/ros/melodic/include/serial/v8stdint.h
+/opt/ros/noetic/include/serial/v8stdint.h
 stddef.h
 -
 stdio.h

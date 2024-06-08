@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/path_planner_node.dir/src/path_planner_node.cpp.o"
+  "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/path_planner/path_planner_node"
+  "/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel/lib/path_planner/path_planner_node.pdb"
   "CMakeFiles/path_planner_node.dir/src/PathPlanner.cpp.o"
-  "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/path_planner/path_planner_node.pdb"
-  "/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/path_planner/path_planner_node"
+  "CMakeFiles/path_planner_node.dir/src/path_planner_node.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

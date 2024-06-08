@@ -70,7 +70,7 @@
 (defmethod navig_msgs::GetBoundaryPointsResponse
   (:init
    (&key
-    ((:points __points) (let (r) (dotimes (i 0) (push (instance geometry_msgs::Point :init) r)) r))
+    ((:points __points) ())
     )
    (send-super :init)
    (setq _points __points)

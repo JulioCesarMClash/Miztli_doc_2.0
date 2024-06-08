@@ -102,16 +102,6 @@ namespace message_traits
 
 
 template <class ContainerAllocator>
-struct IsFixedSize< ::navig_msgs::GeometryGraph_<ContainerAllocator> >
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
-struct IsFixedSize< ::navig_msgs::GeometryGraph_<ContainerAllocator> const>
-  : FalseType
-  { };
-
-template <class ContainerAllocator>
 struct IsMessage< ::navig_msgs::GeometryGraph_<ContainerAllocator> >
   : TrueType
   { };
@@ -119,6 +109,16 @@ struct IsMessage< ::navig_msgs::GeometryGraph_<ContainerAllocator> >
 template <class ContainerAllocator>
 struct IsMessage< ::navig_msgs::GeometryGraph_<ContainerAllocator> const>
   : TrueType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::navig_msgs::GeometryGraph_<ContainerAllocator> >
+  : FalseType
+  { };
+
+template <class ContainerAllocator>
+struct IsFixedSize< ::navig_msgs::GeometryGraph_<ContainerAllocator> const>
+  : FalseType
   { };
 
 template <class ContainerAllocator>

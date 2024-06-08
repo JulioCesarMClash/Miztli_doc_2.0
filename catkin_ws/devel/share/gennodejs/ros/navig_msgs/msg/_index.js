@@ -1,10 +1,10 @@
 
 "use strict";
 
-let Edges = require('./Edges.js');
 let GeometryGraph = require('./GeometryGraph.js');
+let Edges = require('./Edges.js');
 
 module.exports = {
-  Edges: Edges,
   GeometryGraph: GeometryGraph,
+  Edges: Edges,
 };

@@ -24,8 +24,8 @@
   (:init
    (&key
     ((:header __header) (instance std_msgs::Header :init))
-    ((:nodes __nodes) (let (r) (dotimes (i 0) (push (instance geometry_msgs::Point :init) r)) r))
-    ((:edges __edges) (let (r) (dotimes (i 0) (push (instance navig_msgs::Edges :init) r)) r))
+    ((:nodes __nodes) ())
+    ((:edges __edges) ())
     )
    (send-super :init)
    (setq _header __header)

@@ -67,14 +67,14 @@ set(bbros_bridge_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(bbros_bridge_SOURCE_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/src/Interoperation/bbros_bridge)
-  set(bbros_bridge_DEVEL_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/devel)
+  set(bbros_bridge_SOURCE_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Interoperation/bbros_bridge)
+  set(bbros_bridge_DEVEL_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel)
   set(bbros_bridge_INSTALL_PREFIX "")
   set(bbros_bridge_PREFIX ${bbros_bridge_DEVEL_PREFIX})
 else()
   set(bbros_bridge_SOURCE_PREFIX "")
   set(bbros_bridge_DEVEL_PREFIX "")
-  set(bbros_bridge_INSTALL_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/install)
+  set(bbros_bridge_INSTALL_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install)
   set(bbros_bridge_PREFIX ${bbros_bridge_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/festino/Miztli_doc_2.0/catkin_ws/install/lib;/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/lib;/home/joel/Repositories/Juskeshino/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(bbros_bridge_LIBRARIES ${bbros_bridge_LIBRARIES})
 
   _list_append_unique(bbros_bridge_LIBRARY_DIRS ${${bbros_bridge_dep}_LIBRARY_DIRS})
-  list(APPEND bbros_bridge_EXPORTED_TARGETS ${${bbros_bridge_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(bbros_bridge_EXPORTED_TARGETS ${${bbros_bridge_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "bbros_bridge-msg-extras.cmake")

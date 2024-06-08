@@ -67,14 +67,14 @@ set(joy_control_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(joy_control_SOURCE_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/src/Interoperation/joy_control)
-  set(joy_control_DEVEL_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/devel)
+  set(joy_control_SOURCE_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Interoperation/joy_control)
+  set(joy_control_DEVEL_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel)
   set(joy_control_INSTALL_PREFIX "")
   set(joy_control_PREFIX ${joy_control_DEVEL_PREFIX})
 else()
   set(joy_control_SOURCE_PREFIX "")
   set(joy_control_DEVEL_PREFIX "")
-  set(joy_control_INSTALL_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/install)
+  set(joy_control_INSTALL_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install)
   set(joy_control_PREFIX ${joy_control_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/festino/Miztli_doc_2.0/catkin_ws/install/lib;/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/lib;/home/joel/Repositories/Juskeshino/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(joy_control_LIBRARIES ${joy_control_LIBRARIES})
 
   _list_append_unique(joy_control_LIBRARY_DIRS ${${joy_control_dep}_LIBRARY_DIRS})
-  list(APPEND joy_control_EXPORTED_TARGETS ${${joy_control_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(joy_control_EXPORTED_TARGETS ${${joy_control_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

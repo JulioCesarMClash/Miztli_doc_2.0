@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o  -o /home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/urg_c/sync_time_stamp -Wl,-rpath,/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib: /home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/libopen_urg_sensor.so /home/festino/Miztli_doc_2.0/catkin_ws/devel/lib/libliburg_c.so -lrt -lm 

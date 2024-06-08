@@ -67,14 +67,14 @@ set(mobile_base_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(mobile_base_SOURCE_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/src/Hardware/mobile_base)
-  set(mobile_base_DEVEL_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/devel)
+  set(mobile_base_SOURCE_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/src/Hardware/mobile_base)
+  set(mobile_base_DEVEL_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel)
   set(mobile_base_INSTALL_PREFIX "")
   set(mobile_base_PREFIX ${mobile_base_DEVEL_PREFIX})
 else()
   set(mobile_base_SOURCE_PREFIX "")
   set(mobile_base_DEVEL_PREFIX "")
-  set(mobile_base_INSTALL_PREFIX /home/festino/Miztli_doc_2.0/catkin_ws/install)
+  set(mobile_base_INSTALL_PREFIX /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install)
   set(mobile_base_PREFIX ${mobile_base_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/festino/Miztli_doc_2.0/catkin_ws/install/lib;/home/festino/Miztli_doc_2.0/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/joel/Repositories/Miztli_doc_2.0/catkin_ws/install/lib;/home/joel/Repositories/Juskeshino/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(mobile_base_LIBRARIES ${mobile_base_LIBRARIES})
 
   _list_append_unique(mobile_base_LIBRARY_DIRS ${${mobile_base_dep}_LIBRARY_DIRS})
-  list(APPEND mobile_base_EXPORTED_TARGETS ${${mobile_base_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(mobile_base_EXPORTED_TARGETS ${${mobile_base_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")

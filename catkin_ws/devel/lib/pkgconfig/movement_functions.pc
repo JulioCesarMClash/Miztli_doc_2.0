@@ -1,4 +1,4 @@
-prefix=/home/festino/Miztli_doc_2.0/catkin_ws/devel
+prefix=/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel
 
 Name: movement_functions
 Description: Description of movement_functions

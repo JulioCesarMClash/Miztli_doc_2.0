@@ -1,4 +1,4 @@
-prefix=/home/festino/Miztli_doc_2.0/catkin_ws/devel
+prefix=/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel
 
 Name: joy_control
 Description: Description of joy_control

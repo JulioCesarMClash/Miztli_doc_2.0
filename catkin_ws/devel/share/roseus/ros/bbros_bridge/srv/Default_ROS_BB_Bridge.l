@@ -81,8 +81,8 @@
    (setq _response (string __response))
    self)
   (:success
-   (&optional __success)
-   (if __success (setq _success __success)) _success)
+   (&optional (__success :null))
+   (if (not (eq __success :null)) (setq _success __success)) _success)
   (:response
    (&optional __response)
    (if __response (setq _response __response)) _response)

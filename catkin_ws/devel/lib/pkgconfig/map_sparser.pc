@@ -1,4 +1,4 @@
-prefix=/home/festino/Miztli_doc_2.0/catkin_ws/devel
+prefix=/home/joel/Repositories/Miztli_doc_2.0/catkin_ws/devel
 
 Name: map_sparser
 Description: Description of map_sparser
