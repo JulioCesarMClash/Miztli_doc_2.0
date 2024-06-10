@@ -1,0 +1,22 @@
+<launch>
+<param name="robot_description" command="cat $(find knowledge)/hardware/miztli.urdf"/>
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+    <group ns="hardware">
+	<node name="mobile_base" pkg="mobile_base" type="hexa_base_node" output="screen">
+	  <!--param name="simul" value="$(arg simul)"/-->
+	  <!--param name="port1" value="/dev/FestinoRC30"/-->
+	  <!--param name="port2" value="/dev/FestinoRC15"/-->
+	  <param name="port2" value="/dev/ttyACM0"/>
+	  <param name="port1" value="/dev/ttyACM1"/>
+	</node>
+	<node name="joy" pkg="joy" type="joy_node" output="screen"/>
+    </group>
+
+
+    <group ns="interoperation">
+	<node name="joystick_teleop" pkg="joystick_teleop" type="joystick_logitech.py" output="screen"/>
+    </group>
+</launch>
+
+
+
