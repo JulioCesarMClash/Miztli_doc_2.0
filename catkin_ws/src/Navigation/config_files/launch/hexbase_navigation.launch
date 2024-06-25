@@ -119,7 +119,7 @@
 
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find config_files)/rviz/hexbase_navigation.rviz"/>
 
-  <node name="panic_stop" pkg="act_pln" type="panic_stop.py">
-  </node>
+  <!--node name="panic_stop" pkg="act_pln" type="panic_stop.py"-->
+  <!--/node-->
 
 </launch>
